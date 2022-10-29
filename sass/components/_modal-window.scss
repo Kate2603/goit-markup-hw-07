@@ -29,9 +29,9 @@
 
 .modal-close-btn-icon {
     transition: fill var(--transition-duration-and-func);
-}
 
-.modal-close-btn:hover .modal-close-btn-icon,
-.modal-close-btn:focus .modal-close-btn-icon {
-    fill: var(--ternary-color);
+    .modal-close-btn:hover &,
+    .modal-close-btn:focus & {
+        fill: var(--ternary-color);
+    }
 }

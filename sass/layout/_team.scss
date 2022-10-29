@@ -55,18 +55,18 @@
     background-color: var(--primary-background);
     border: none;
     transition: background-color var(--transition-duration-and-func), fill var(--transition-duration-and-func);
-}
 
-.social-list-link:hover,
-.social-list-link:focus {
-    background-color: var(--ternary-bacground);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-    fill: #FFFFFF;
+    &:hover,
+    &:focus {
+        background-color: var(--ternary-bacground);
+    }
 }
 
 .social-list-icon {
     fill: #AFB1B8;
+
+    .social-list-link:hover &,
+    .social-list-link:focus & {
+        fill: #FFFFFF;
+    }
 }

@@ -32,11 +32,11 @@
     letter-spacing: 0.03em;
     color: var(--ternary-text-color);
     transition: color var(--transition-duration-and-func);
-}
 
-.contact-adress:hover,
-.contact-adress:focus {
-    color: var(--quaternary-text-color);
+    &:hover,
+    &:focus {
+        color: var(--quaternary-text-color);
+    }
 }
 
 .contact-list-footer {
@@ -47,11 +47,11 @@
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     transition: color var(--transition-duration-and-func);
-}
 
-.contact-list-footer:hover,
-.contact-list-footer:focus {
-    color: var(--quaternary-text-color);
+    &:hover,
+    &:focus {
+        color: var(--quaternary-text-color);
+    }
 }
 
 .footer-social-container {
@@ -83,11 +83,11 @@
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     transition: background-color var(--transition-duration-and-func);
-}
 
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-    background-color: var(--ternary-bacground);
+    &:hover,
+    &:focus {
+        background-color: var(--ternary-bacground);
+    }
 }
 
 .footer-social-list-icon {
@@ -118,18 +118,18 @@
     margin-right: 12px;
     padding: 0;
     outline: none;
-}
 
-.footer-newsletter-form-input::placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    background-color: #2F303A;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 16px;
+    &::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        background-color: #2F303A;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 16px;
+    }
 }
 
 .footer-newsletter-btn {
