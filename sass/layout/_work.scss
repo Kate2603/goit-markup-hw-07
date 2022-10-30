@@ -10,12 +10,11 @@
 }
 
 .all-titles {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    @include font (700, 36px, 42px); 
+    
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: var(--accent-text-color);
     margin-bottom: 50px;
 }
 
@@ -38,14 +37,14 @@
     bottom: 0;
     left: 0;
     overflow: auto;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+
+    @include font (700, 14px, 16px);
+    
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--ternary-text-color);
-    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--third-text-color);
+    background-color: var(--eleventh-background);
     width: 100%;
     height: 70px;
     padding-top: 27px;

@@ -1,5 +1,7 @@
 @import './utils/_variables.scss';
 @import './utils/visually-hidden';
+@import './utils/placeholders';
+@import './utils/mixins';
 
 @import './base/_common.scss';
 @import './base/_section.scss';

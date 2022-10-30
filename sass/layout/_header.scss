@@ -19,16 +19,16 @@
 }
 
 .logo-link {
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-family: var(--second-font);
+
+    @include font (700, 26px, 31px);
+    
     letter-spacing: 0.03em;
-    color: var(--quaternary-text-color);
+    color: var(--fourth-text-color);
 }
 
 .logo-heater {
-    color: var(--primary-text-color);
+    color: var(--accent-text-color);
 }
 
 .menu {
@@ -43,11 +43,11 @@
 .menu-link {
     position: relative;
     display: block;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+
+    @include font (500, 14px, 16px);
+    
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: var(--accent-text-color);
     list-style: none;
     text-decoration: none;
     padding-top: 32px;
@@ -57,17 +57,17 @@
 
     &:hover,
     &:focus {
-        color: var(--quaternary-text-color);
+        color: var(--fourth-text-color);
     }
 
     &.current {
-        color: var(--quaternary-text-color);
+        color: var(--fourth-text-color);
     }
 }
 
 .current {
     display: block;
-    color: var(--ternary-color);
+    color: var(--third-color);
 
     &::after {
         content: "";
@@ -75,7 +75,7 @@
         display: block;
         width: 100%;
         height: 4px;
-        background-color: var(--ternary-bacground);
+        background-color: var(--third-background);
         border-radius: 2px;
         left: 0;
         bottom: -1px;
@@ -96,18 +96,18 @@
 
 .contact-list {
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+
+    @include font (500, 14px, 16px);
+    
     padding-top: 32px;
     padding-bottom: 32px;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
+    color: var(--second-text-color);
     transition: color var(--transition-duration-and-func);
 
     &:hover,
     &:focus {
-        color: var(--quaternary-text-color);
+        color: var(--fourth-text-color);
     }
 }
 

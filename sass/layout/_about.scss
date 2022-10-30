@@ -9,29 +9,27 @@
 }
 
 .about-list-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
+    
     width: 270px;
     height: 120px;
-    background-color: #F5F4FA;
+    background-color: var(--fifth-background);
     border-radius: 4px;
     margin-bottom: 30px;
 }
 
 .about-title-item {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font (700, 14px, 16px);
+    
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-text-color);
+    color: var(--accent-text-color);
     margin-bottom: 10px;
 }
 
 .about-paragraph {
-    font-size: 14px;
-    line-height: 1.71;
+    @include font (400, 14px, 24px);
+    
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
+    color: var(--second-text-color);
 }
