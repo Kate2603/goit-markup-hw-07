@@ -93,21 +93,12 @@
     fill: var(--third-fill);
 }
 
-.newsletter__footer {
+.footer__newsletter {
     display: flex;
     justify-content: baseline;
 }
 
-.newsletter__pharagraf {
-    @include font (700, 14px, 16px);
-    
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--third-text-color);
-    margin-bottom: 20px;
-}
-
-.newsletter__input {
+.footer__input {
     width: 358px;
     height: 50px;
     border: 1px solid var(--fifth-border-color);
