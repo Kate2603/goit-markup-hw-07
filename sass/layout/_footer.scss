@@ -21,11 +21,11 @@
     color: var(--third-text-color);
 }
 
-.address__link:not(:last-child) {
+.footer__link:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.address__address {
+.footer__address {
     font-style: normal;
 
     @include font (400, 14px, 24px);
@@ -40,7 +40,7 @@
     }
 }
 
-.address__contact {
+.footer__contact {
     font-style: normal;
 
     @include font (400, 14px, 24px);
@@ -69,12 +69,12 @@
     margin-bottom: 20px;
 }
 
-.footer__list {
+.sosial__list {
     display: flex;
     gap: 10px;
 }
 
-.footer__link {
+.sosial__link {
     @extend %align;
     
     width: 44px;
@@ -89,7 +89,7 @@
     }
 }
 
-.footer__icon {
+.sosial__icon {
     fill: var(--third-fill);
 }
 
