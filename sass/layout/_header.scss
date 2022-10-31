@@ -13,21 +13,23 @@
 }
 
 .logo {
-    margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
-
-.logo-link {
     font-family: var(--second-font);
-
+    
     @include font (700, 26px, 31px);
     
     letter-spacing: 0.03em;
     color: var(--fourth-text-color);
+    
 }
 
-.logo-heater {
+.logo__heater {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
+}
+
+.logo__heater_dark {
     color: var(--accent-text-color);
 }
 
@@ -36,11 +38,11 @@
     align-items: center;
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.menu-link {
+.menu__link {
     position: relative;
     display: block;
 
@@ -90,11 +92,11 @@
     padding-bottom: 32px;
 }
 
-.menu-contact:not(:last-child) {
+.contact__menu:not(:last-child) {
     margin-right: 50px;
 }
 
-.contact-list {
+.contact__list {
     font-style: normal;
 
     @include font (500, 14px, 16px);
@@ -111,7 +113,7 @@
     }
 }
 
-.contact-icon {
+.contact__icon {
     fill: currentColor;
     margin-right: 10px;
 }

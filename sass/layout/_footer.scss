@@ -3,29 +3,29 @@
     background-color: var(--second-background);
 }
 
-.footer-container {
+.footer__container {
     display: flex;
     align-items: baseline;
 }
 
-.footer-list {
+.footer__list {
     margin-right: 70px;
 }
 
-.logo-footer-link {
+.logo__footer {
     display: block;
     margin-bottom: 20px;
 }
 
-.logo-footer {
+.logo__footer_wite {
     color: var(--third-text-color);
 }
 
-.adress-link:not(:last-child) {
+.address__link:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.contact-adress {
+.address__address {
     font-style: normal;
 
     @include font (400, 14px, 24px);
@@ -40,7 +40,7 @@
     }
 }
 
-.contact-list-footer {
+.address__contact {
     font-style: normal;
 
     @include font (400, 14px, 24px);
@@ -55,12 +55,12 @@
     }
 }
 
-.footer-social-container {
+.footer__social {
     margin-top: 12px;
     margin-right: 93px;
 }
 
-.footer-paragraph {
+.footer__paragraph {
     @include font (700, 14px, 16px);
     
     letter-spacing: 0.03em;
@@ -69,12 +69,12 @@
     margin-bottom: 20px;
 }
 
-.footer-social-list {
+.footer__list {
     display: flex;
     gap: 10px;
 }
 
-.footer-social-list-link {
+.footer__link {
     @extend %align;
     
     width: 44px;
@@ -89,16 +89,16 @@
     }
 }
 
-.footer-social-list-icon {
+.footer__icon {
     fill: var(--third-fill);
 }
 
-.footer-newsletter {
+.newsletter__footer {
     display: flex;
     justify-content: baseline;
 }
 
-.footer-newsletter-form-pharagraf {
+.newsletter__pharagraf {
     @include font (700, 14px, 16px);
     
     letter-spacing: 0.03em;
@@ -107,7 +107,7 @@
     margin-bottom: 20px;
 }
 
-.footer-newsletter-form-input {
+.newsletter__input {
     width: 358px;
     height: 50px;
     border: 1px solid var(--fifth-border-color);
@@ -129,7 +129,7 @@
     }
 }
 
-.footer-newsletter-btn {
+.btn__newsletter {
     position: relative;
     display: inline-block;
     padding-top: 10px;
@@ -149,7 +149,7 @@
     border: none;
 }
 
-.footer-newsletter-btn-icon {
+.btn__icon {
     position: absolute;
     top: 13px;
     right: 28px;
