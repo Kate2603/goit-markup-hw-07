@@ -1,15 +1,15 @@
-.button__menu {
+.buttons {
     @extend %align;
     
     margin-bottom: 50px;
 }
 
-.button___item:not(:last-child) {
+.attachment:not(:last-child) {
     margin-right: 8px;
 }
 
 
-.button__btn {
+.attachment__btn {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 22px;
@@ -58,7 +58,7 @@
     }
 }
 
-.portfolio__menu {
+.portfolio {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -77,12 +77,12 @@
     display: block;
 }
 
-.portfolio__wrapper {
+.wrapper {
     position: relative;
     overflow: hidden;
 }
 
-.portfolio__subscription {
+.subscription {
     border: 1px solid var(--sixth-border-color);
     border-top: none;
     padding-top: 20px;
@@ -91,7 +91,7 @@
     padding-right: 24px;
 }
 
-.portfolio__title {
+.subscription__title {
     @include font (700, 18px, 36px);
     
     letter-spacing: 0.06em;
@@ -100,7 +100,7 @@
     margin-bottom: 4px;
 }
 
-.portfolio__paragraph {
+.subscription__paragraph {
     @include font (400, 16px, 30px);
     
     letter-spacing: 0.03em;

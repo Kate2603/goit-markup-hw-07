@@ -12,12 +12,18 @@
     margin-right: 70px;
 }
 
-.logo__footer {
+.logo {
+    font-family: var(--second-font);
+    
+        @include font (700, 26px, 31px);
+    
+        letter-spacing: 0.03em;
+        color: var(--fourth-text-color);
     display: block;
     margin-bottom: 20px;
 }
 
-.logo__footer_wite {
+.logo__footer {
     color: var(--third-text-color);
 }
 
@@ -55,12 +61,12 @@
     }
 }
 
-.footer__social {
+.social {
     margin-top: 12px;
     margin-right: 93px;
 }
 
-.footer__paragraph {
+.social__paragraph {
     @include font (700, 14px, 16px);
     
     letter-spacing: 0.03em;
@@ -69,12 +75,12 @@
     margin-bottom: 20px;
 }
 
-.sosial__list {
+.social__list {
     display: flex;
     gap: 10px;
 }
 
-.sosial__link {
+.social__link {
     @extend %align;
     
     width: 44px;
@@ -89,16 +95,26 @@
     }
 }
 
-.sosial__icon {
+.social__icon {
     fill: var(--third-fill);
 }
 
-.footer__newsletter {
+.newsletter {
     display: flex;
     justify-content: baseline;
+    margin-left: auto;
 }
 
-.footer__input {
+.newsletter__paragraph {
+    @include font (700, 14px, 16px);
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--third-text-color);
+    margin-bottom: 20px;
+}
+
+.newsletter__input {
     width: 358px;
     height: 50px;
     border: 1px solid var(--fifth-border-color);
@@ -120,7 +136,7 @@
     }
 }
 
-.btn__newsletter {
+.pressbutton {
     position: relative;
     display: inline-block;
     padding-top: 10px;
@@ -140,7 +156,7 @@
     border: none;
 }
 
-.btn__icon {
+.pressbutton__icon {
     position: absolute;
     top: 13px;
     right: 28px;

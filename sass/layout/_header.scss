@@ -12,24 +12,20 @@
     align-items: center;
 }
 
-.logo {
+.logotype {
     font-family: var(--second-font);
     
     @include font (700, 26px, 31px);
     
     letter-spacing: 0.03em;
     color: var(--fourth-text-color);
-    
-}
-
-.logo__heater {
     margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
+        padding-top: 24px;
+        padding-bottom: 25px;
     
 }
 
-.logo__heater_dark {
+.logotype__header {
     color: var(--accent-text-color);
 }
 
